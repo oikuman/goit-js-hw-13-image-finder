@@ -1,5 +1,6 @@
 const webpackMerge = require('webpack-merge');
 const loadSharedConfig = require('./configs/shared');
+const Dotenv = require('dotenv-webpack');
 
 const loadModeConfig = env => require(`./configs/${env.mode}`)(env);
 

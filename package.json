@@ -1,7 +1,7 @@
 {
   "name": "webpack-starter-kit",
   "version": "1.1.0",
-  "description": "",
+  "description": "- Созданы репозитории `goit-js-hw-13-image-finder`. - При сдаче домашней работы есть две ссылки для каждого проекта: на исходные   файлы и рабочую страницу на GitHub pages. - При посещении рабочей страницы (GitHub pages) задания, в консоли нету ошибок и   предупреждений - Имена переменных и функций понятные, описательные - Проект собран с помощью `Webpack` - Код отформатирован с помощью `Prettier` - Добавь минимальную стилизацию - Есть файл `apiService.js` с дефолтным экспортом объекта отвечающего за логику   HTTP-запросов к API",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
@@ -48,8 +48,13 @@
     "webpackbar": "^3.2.0"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.6.0",
+    "axios": "^0.19.0",
     "core-js": "^3.1.4",
-    "handlebars": "^4.1.2",
+    "dotenv": "^8.1.0",
+    "dotenv-webpack": "^1.7.0",
+    "fs": "0.0.1-security",
+    "handlebars": "^4.2.0",
     "imagemin": "^6.0.0"
   }
 }
