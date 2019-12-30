@@ -54,7 +54,7 @@
     "dotenv": "^8.1.0",
     "dotenv-webpack": "^1.7.0",
     "fs": "0.0.1-security",
-    "handlebars": "^4.2.0",
+    "handlebars": "^4.3.0",
     "imagemin": "^6.0.0"
   }
 }
